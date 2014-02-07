@@ -15,7 +15,7 @@ Native support for Node.js is available in JSDoc 3.3.0 and later. JSDoc
 supports Node.js 0.10 and later.
 
 
-    npm install https://github.com/rkvsraman/jsdoc.git
+    git clone https://github.com/rkvsraman/jsdoc.git
 
 
 #### Running JSDoc with Node.js
