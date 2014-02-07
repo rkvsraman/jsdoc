@@ -7,7 +7,7 @@ An API documentation generator for JavaScript.
 Want to contribute to JSDoc? Please read `CONTRIBUTING.md`.
 
 
-Installation and Usage - Modified
+Installation and Usage
 ----------------------
 
 You can run JSDoc on either Node.js or Mozilla Rhino.
