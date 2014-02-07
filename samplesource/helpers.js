@@ -167,6 +167,7 @@ HelperSet.prototype.stylesheet_link_tag = HelperSet.prototype.stylesheetLinkTag;
  *     <script type="text/javascript" src="/javascripts/rails.js"></script>
  *     <script type="text/javascript" src="/javascripts/application.js"></script>
  *
+ * @group hSetgroup
  * @param {String} script filename.
  * @return {String} the generated &lt;script&gt; tags
  */
@@ -761,6 +762,7 @@ HelperSet.prototype.formTagRemoteBegin = function(params) {
  *
  * @methodOf HelperSet.prototype
  * @returns {String} Closing tag for form
+ * @group secondGroup
  */
 HelperSet.prototype.formTagEnd = function (params) {
   return '</form>';
@@ -932,6 +934,7 @@ HelperSet.prototype.imageTag = function (src, params) {
  *
  *     <%- anchor('some-thing') %>
  *     <a name="some-thing"></a>
+ *     @group secondGroup
  */
 HelperSet.prototype.anchor = function anchor(name, params) {
     params = params || {};
@@ -940,6 +943,7 @@ HelperSet.prototype.anchor = function anchor(name, params) {
 };
 
 /**
+ *
  * Content for named section.
  *
  * Called with one param acts as getter and returns all content pieces,
@@ -958,6 +962,7 @@ HelperSet.prototype.anchor = function anchor(name, params) {
  *
  * This will add some view-specific content to layout.
  * This method also could be called from controller.
+ *  @group hSetgroup
  */
 HelperSet.prototype.contentFor = function contentFor(name, content) {
     if (content) {
