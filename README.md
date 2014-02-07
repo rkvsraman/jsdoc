@@ -25,7 +25,7 @@ packages without `sudo`, please
 
 In the cloned directory run 
 
-./generateDocs.sh 
+   ./generateDocs.sh 
 
 
 
