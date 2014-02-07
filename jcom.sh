@@ -1,4 +1,4 @@
 #! /bin/sh
 
-node --debug-brk ./jsdoc.js  -t templates/docstrap/template  samplesource/compound.js & 
-google-chrome http://127.0.0.1:8080/debug?port=5858
+node  ./jsdoc.js  -t templates/docstrap/template  samplesource/compound.js   | more
+google-chrome out/index.html

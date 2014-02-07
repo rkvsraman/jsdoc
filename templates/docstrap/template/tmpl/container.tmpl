@@ -105,7 +105,11 @@
     ?>
         <h3 class="subsection-title">Members</h3>
 
-        <dl><?js members.forEach(function(p) { ?>
+        <dl><?js
+         members = _.sortBy(members,function(num){
+          console.log("In here");
+         return num.group;});
+        members.forEach(function(p) { ?>
             <?js= self.partial('members.tmpl', p) ?>
         <?js }); ?></dl>
     <?js } ?>
@@ -116,7 +120,12 @@
     ?>
         <h3 class="subsection-title">Methods</h3>
 
-        <dl><?js methods.forEach(function(m) { ?>
+        <dl><?js
+
+         methods = _.sortBy(methods,function(num){
+                  console.log("In here " + num.group + " " + num.name);
+                 return num.group;});
+        methods.forEach(function(m) { ?>
             <?js= self.partial('method.tmpl', m) ?>
         <?js }); ?></dl>
     <?js } ?>

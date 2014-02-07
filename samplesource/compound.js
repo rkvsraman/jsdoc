@@ -14,11 +14,13 @@ var fs = require('fs'),
     kontroller = require('kontroller'),
     i18n = require('./i18n');
 
+
 module.exports = Compound;
 
 /**
- * Global compound API singleton.
- * Available everywhere in project.
+ * @namespace
+ *
+ *
  *
  */
 function Compound(app, root) {
@@ -78,6 +80,9 @@ util.inherits(Compound, events.EventEmitter);
  *  - locales
  *  - observers
  *  - assets
+ *
+ * @memberof Compound
+ * @group someName
  *
  * @param {Object} app - express server, may contain optional `root` member.
  * @return {Compound} compound - compound app descriptor.
@@ -178,7 +183,7 @@ function configureApp(compound) {
 /**
  * Require `module` if it exists
  *
- * @group someName
+ *
  * @param {Compound} compound - express app.
  * @param {String} module - path to file.
  * @return {Boolean} success - returns true when required file exists.
@@ -216,6 +221,7 @@ function requireFun(filename) {
 /**
  * Run initializers in sandbox mode
  *
+ * @group someName
  * @param {Compound} compound - compound descriptor.
  */
 function runInitializers(compound) {
