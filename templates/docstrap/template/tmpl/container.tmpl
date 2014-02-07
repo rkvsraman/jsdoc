@@ -1,6 +1,6 @@
 <?js
     var self = this;
-    console.log("This called");
+
     docs.forEach(function(doc, i) {
 ?>
 
@@ -107,11 +107,26 @@
         <h3 class="subsection-title">Members</h3>
 
         <dl><?js
-         members = _.sortBy(members,function(num){
-          console.log("In here");
-         return num.group;});
-        members.forEach(function(p) { ?>
-            <?js= self.partial('members.tmpl', p) ?>
+         members = _.sortBy(members,
+                     function(m){
+                        return m.group;
+                        });
+
+         groups = [];
+          members.forEach(function(m) {
+             if(m.group)
+             {
+
+             if(!_.contains(groups,m.group)){  ?>
+
+                  <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
+                  <?js
+
+                          groups.push(m.group);
+                  }
+
+             } ?>
+            <?js= self.partial('members.tmpl', m) ?>
         <?js }); ?></dl>
     <?js } ?>
 
@@ -123,23 +138,24 @@
 
         <dl><?js
 
-         methods = _.sortBy(methods,function(num){
+             methods = _.sortBy(methods,
+             function(m){
+                return m.group;
+                });
 
-                 return num.group;});
-           groups = [];
-        methods.forEach(function(m) {
-        if(m.group)
-        {
-           console.log("%j",groups);
-              console.log("In here " + m.group + " " + m.name);
-           if(!_.contains(groups,m.group)){ ?>
-             <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
-           <?js
+             groups = [];
+             methods.forEach(function(m) {
+                if(m.group)
+                {
 
-           groups.push(m.group);
-           }
+                        if(!_.contains(groups,m.group)){ ?>
+                          <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
+                        <?js
 
-        } ?>
+                            groups.push(m.group);
+                        }
+
+                } ?>
 
             <?js= self.partial('method.tmpl', m) ?>
         <?js }); ?></dl>

@@ -8,6 +8,10 @@ var self = this;
     <?js if (data.summary) { ?>
     <p class="summary"><?js= summary ?></p>
     <?js } ?>
+
+     <?js if (data.group) { ?>
+      <p class="summary"> Belongs to <em><?js= group ?></em> group</p>
+     <?js } ?>
 </dt>
 <dd>
     <?js if (data.description) { ?>

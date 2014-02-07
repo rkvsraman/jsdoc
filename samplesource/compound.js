@@ -36,7 +36,7 @@ function Compound(app, root) {
     this.root = root || process.cwd();
 
     if (app) {
-        app.on('mount', function(parent) {
+        app.on('mount', function (parent) {
             if (parent.compound) {
                 compound.parent = parent.compound;
                 compound.models = parent.compound.models;
@@ -60,7 +60,7 @@ function Compound(app, root) {
     if (this.constructor.name === 'CompoundClient') {
         return;
     }
-    process.nextTick(function() {
+    process.nextTick(function () {
         compound.init();
     });
 }
@@ -88,6 +88,7 @@ util.inherits(Compound, events.EventEmitter);
  * @return {Compound} compound - compound app descriptor.
  */
 Compound.prototype.init = function initCompound() {
+
     var compound = this;
 
     // run environment.{js|coffee}
@@ -140,7 +141,7 @@ Compound.prototype.init = function initCompound() {
     return compound;
 };
 
-Compound.prototype.model = function(model, caseSensitive) {
+Compound.prototype.model = function (model, caseSensitive) {
     if (typeof model === 'function') {
         var name = model.modelName || model.name;
         if (!name) {
@@ -206,7 +207,7 @@ function requireFun(filename) {
     }
     if (typeof mod !== 'function') {
         console.log('WARNING: ', filename,
-        'should export function(compound) but given ' + typeof mod);
+            'should export function(compound) but given ' + typeof mod);
     }
     if (err) {
         throw err;
@@ -214,7 +215,8 @@ function requireFun(filename) {
     if (typeof mod === 'function') {
         return mod;
     } else {
-        return function() {};
+        return function () {
+        };
     }
 }
 
@@ -229,7 +231,7 @@ function runInitializers(compound) {
         initializersPath = path.join(compound.root, 'config', 'initializers');
 
     if (existsSync(initializersPath)) {
-        queue = fs.readdirSync(initializersPath).map(function(file) {
+        queue = fs.readdirSync(initializersPath).map(function (file) {
             if (file.match(/^\./)) return false;
             return requireFun(path.join(initializersPath, file));
         }).filter(Boolean);
@@ -246,6 +248,8 @@ function runInitializers(compound) {
             initializer(compound);
             next();
         }
+
+
     }
 
 }
