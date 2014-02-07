@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samplesource/helpers.js" afterPath="$PROJECT_DIR$/samplesource/helpers.js" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +106,7 @@
       <file leaf-file-name="helpers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/samplesource/helpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="764" column="21" selection-start="24736" selection-end="24736" vertical-scroll-proportion="0.28962818">
+            <state line="761" column="50" selection-start="24639" selection-end="24639" vertical-scroll-proportion="0.16046967">
               <folding />
             </state>
           </provider>
@@ -739,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samplesource/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="764" column="21" selection-start="24736" selection-end="24736" vertical-scroll-proportion="0.28962818">
+        <state line="761" column="50" selection-start="24639" selection-end="24639" vertical-scroll-proportion="0.16046967">
           <folding />
         </state>
       </provider>
