@@ -158,6 +158,7 @@ Compound.prototype.model = function(model, caseSensitive) {
 /**
  * Run app configutators in `config/environment` and `config/environments/env`.
  * @param {Compound} compound - compound app descriptor.
+ * @group someName
  */
 function configureApp(compound) {
     var app = compound.app;
@@ -177,6 +178,7 @@ function configureApp(compound) {
 /**
  * Require `module` if it exists
  *
+ * @group someName
  * @param {Compound} compound - express app.
  * @param {String} module - path to file.
  * @return {Boolean} success - returns true when required file exists.
