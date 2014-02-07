@@ -23,11 +23,11 @@ packages without `sudo`, please
 
 #### Running JSDoc with Node.js
 
-In the cloned directory run 
+In the cloned directory run.
 
    ./generateDocs.sh 
 
-
+This will run google-chrome and open the generated page. Look at HelperSet documentation to see the work in progress.
 
 
 By default, the generated documentation is saved in a directory named `out`.
