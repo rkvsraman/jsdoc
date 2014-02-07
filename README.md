@@ -26,7 +26,7 @@ In the clone directory run.
 
 In the cloned directory run.
 
-   ./generateDocs.sh 
+    ./generateDocs.sh 
 
 This will run google-chrome and open the generated page. Look at HelperSet documentation to see the work in progress.
 
