@@ -17,7 +17,7 @@ supports Node.js 0.10 and later.
 
     git clone https://github.com/rkvsraman/jsdoc.git
 
-    In the clone directory run.
+In the clone directory run.
 
     npm install
 
