@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samplesource/compound.js" afterPath="$PROJECT_DIR$/samplesource/compound.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcom.sh" afterPath="$PROJECT_DIR$/jcom.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +11,7 @@
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
     <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391761145582" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
-    <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391763884747" ignored="false" />
+    <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391766533203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +83,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compound.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="compound.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="18" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.53765327">
+            <state line="84" column="18" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="container.tmpl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="container.tmpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="28" selection-start="4019" selection-end="4019" vertical-scroll-proportion="0.0">
+            <state line="135" column="50" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.54480284">
               <folding />
             </state>
           </provider>
@@ -160,8 +157,8 @@
       <list>
         <option value="$PROJECT_DIR$/lib/jsdoc/tag/dictionary/definitions.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
         <option value="$PROJECT_DIR$/samplesource/compound.js" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
       </list>
     </option>
   </component>
@@ -509,19 +506,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -654,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="22" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/details.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -675,16 +665,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
+    <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="28" selection-start="4019" selection-end="4019" vertical-scroll-proportion="0.0">
+        <state line="84" column="18" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="18" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.53765327">
+        <state line="263" column="22" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="50" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.54480284">
           <folding />
         </state>
       </provider>

@@ -1,5 +1,6 @@
 <?js
     var self = this;
+    console.log("This called");
     docs.forEach(function(doc, i) {
 ?>
 
@@ -123,9 +124,23 @@
         <dl><?js
 
          methods = _.sortBy(methods,function(num){
-                  console.log("In here " + num.group + " " + num.name);
+
                  return num.group;});
-        methods.forEach(function(m) { ?>
+           groups = [];
+        methods.forEach(function(m) {
+        if(m.group)
+        {
+           console.log("%j",groups);
+              console.log("In here " + m.group + " " + m.name);
+           if(!_.contains(groups,m.group)){ ?>
+             <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
+           <?js
+
+           groups.push(m.group);
+           }
+
+        } ?>
+
             <?js= self.partial('method.tmpl', m) ?>
         <?js }); ?></dl>
     <?js } ?>
