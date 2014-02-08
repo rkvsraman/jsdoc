@@ -122,7 +122,7 @@
 
              if(!_.contains(groups,m.group)){  ?>
 
-                  <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
+                  <h3 class="subsection-title" id="<?js= m.group ?>"> Group: <?js= m.group ?></h3>
                   <?js
 
                           groups.push(m.group);
@@ -152,7 +152,7 @@
                 {
 
                         if(!_.contains(groups,m.group)){ ?>
-                          <h3 class="subsection-title"> Group: <?js= m.group ?></h3>
+                          <h3 class="subsection-title" id="<?js= m.group ?>"> Group: <?js= m.group ?></h3>
                         <?js
 
                             groups.push(m.group);

@@ -393,7 +393,11 @@ exports.publish = function ( taffyData, opts, tutorials ) {
 
 	var sourceFiles = {};
 	var sourceFilePaths = [];
+
 	data().each( function ( doclet ) {
+
+
+
 		doclet.attribs = '';
 
 		if ( doclet.examples ) {
@@ -470,6 +474,7 @@ exports.publish = function ( taffyData, opts, tutorials ) {
 
 		if ( url.indexOf( '#' ) > -1 ) {
 			doclet.id = helper.longnameToUrl[doclet.longname].split( /#/ ).pop();
+
 		}
 		else {
 			doclet.id = doclet.name;
@@ -504,6 +509,7 @@ exports.publish = function ( taffyData, opts, tutorials ) {
 	// add template helpers
 	view.find = find;
 	view.linkto = linkto;
+
 	view.resolveAuthorLinks = resolveAuthorLinks;
 	view.tutoriallink = tutoriallink;
 	view.htmlsafe = htmlsafe;

@@ -3,16 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/publish.js" afterPath="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" afterPath="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391758196056" ignored="false" />
+    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391876606119" ignored="false" />
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
-    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391761145582" ignored="false" />
+    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391876981942" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
-    <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391768726410" ignored="false" />
+    <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877634703" ignored="false" />
     <file path="/method.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767969300" ignored="false" />
     <file path="/members.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767979394" ignored="false" />
+    <file path="/templateHelper.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877270742" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,94 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="compound.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="8" selection-start="6752" selection-end="6752" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="container.tmpl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="container.tmpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samplesource/helpers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="761" column="50" selection-start="24639" selection-end="24639" vertical-scroll-proportion="0.16046967">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/method.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="members.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/members.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="52" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="22" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcmaScript.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="17" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".jshintrc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.jshintrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templateHelper.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="225" column="21" selection-start="7648" selection-end="7648" vertical-scroll-proportion="0.0">
+            <state line="154" column="76" selection-start="4762" selection-end="4762" vertical-scroll-proportion="0.76428574">
               <folding />
             </state>
           </provider>
@@ -185,12 +106,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/jsdoc/tag/dictionary/definitions.js" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
         <option value="$PROJECT_DIR$/samplesource/compound.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/method.tmpl" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/members.tmpl" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
         <option value="$PROJECT_DIR$/samplesource/helpers.js" />
+        <option value="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
       </list>
     </option>
   </component>
@@ -229,7 +151,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,78 +259,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samplesource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsdoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dictionary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -623,32 +479,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/jsdoc/tag/dictionary/definitions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="19" selection-start="7174" selection-end="7174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="21" selection-start="7648" selection-end="7648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -667,15 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsdoc/tag/dictionary/definitions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="31" selection-start="9771" selection-end="9771" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="17" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
@@ -685,9 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/details.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
@@ -699,7 +521,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/method.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.692307">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplesource/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="763" column="64" selection-start="24714" selection-end="24714" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jsdoc/tag/dictionary/definitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="348" column="31" selection-start="9771" selection-end="9771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="7" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="395" column="4" selection-start="10330" selection-end="10330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -711,33 +576,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+    <entry file="file://$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="22" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.692307">
+        <state line="469" column="60" selection-start="15481" selection-end="15481" vertical-scroll-proportion="3.0303571">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samplesource/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="761" column="50" selection-start="24639" selection-end="24639" vertical-scroll-proportion="0.16046967">
+        <state line="154" column="76" selection-start="4762" selection-end="4762" vertical-scroll-proportion="0.76428574">
           <folding />
         </state>
       </provider>
