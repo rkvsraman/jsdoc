@@ -85,7 +85,7 @@ var navigationMaster = {
     },
     groups: {
         title: "Groups",
-        link: helper.getUniqueFilename("groups.list"),
+        link: globalUrl,
         members: []
     }
 };
@@ -328,6 +328,9 @@ function buildNav(members) {
         members.mixins.forEach(function (m) {
             if (!hasOwnProp.call(seen, m.longname)) {
 
+                console.log (" Longna name "+ m.longname );
+                console.log (" Name "+ m.name );
+                console.log (" Link "+linkto(m.longname, m.name));
                 nav.mixin.members.push(linkto(m.longname, m.name));
             }
             seen[m.longname] = true;
@@ -348,6 +351,9 @@ function buildNav(members) {
         members.globals.forEach(function (g) {
             if (g.kind !== 'typedef' && !hasOwnProp.call(seen, g.longname)) {
 
+                console.log (" Longna name "+ g.longname );
+                console.log (" Name "+ g.name );
+                console.log (" Link "+linkto(g.longname, g.name));
                 nav.global.members.push(linkto(g.longname, g.name));
             }
             seen[g.longname] = true;

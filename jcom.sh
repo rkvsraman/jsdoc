@@ -1,4 +1,4 @@
 #! /bin/sh
 
-node  ./jsdoc.js  -t templates/docstrap/template  samplesource/compound.js   | more
+jsdoc  -t templates/docstrap/template  samplesource/compound.js  
 google-chrome out/index.html
