@@ -351,9 +351,9 @@ function buildNav(members) {
         members.globals.forEach(function (g) {
             if (g.kind !== 'typedef' && !hasOwnProp.call(seen, g.longname)) {
 
-                console.log (" Longna name "+ g.longname );
+                /*console.log (" Longna name "+ g.longname );
                 console.log (" Name "+ g.name );
-                console.log (" Link "+linkto(g.longname, g.name));
+                console.log (" Link "+linkto(g.longname, g.name));*/
                 nav.global.members.push(linkto(g.longname, g.name));
             }
             seen[g.longname] = true;
@@ -421,6 +421,10 @@ exports.publish = function (taffyData, opts, tutorials) {
 
 
         doclet.attribs = '';
+        if(doclet.group){
+           // console.log("%j",doclet);
+            console.log("URL "+  helper.createLink(doclet));
+        }
 
         if (doclet.examples) {
             doclet.examples = doclet.examples.map(function (example) {

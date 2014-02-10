@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/publish.js" afterPath="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391999283083" ignored="false" />
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
-    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391948585611" ignored="false" />
+    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392002249072" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
     <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877634703" ignored="false" />
     <file path="/method.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767969300" ignored="false" />
@@ -74,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="370" column="9" selection-start="10492" selection-end="10492" vertical-scroll-proportion="0.0">
+            <state line="424" column="13" selection-start="11959" selection-end="11959" vertical-scroll-proportion="0.4107143">
               <folding />
             </state>
           </provider>
@@ -101,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compound.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="compound.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="19" selection-start="6079" selection-end="6079" vertical-scroll-proportion="0.57766145">
+            <state line="226" column="19" selection-start="6079" selection-end="6079" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,11 +148,11 @@
         <option value="$PROJECT_DIR$/samplesource/helpers.js" />
         <option value="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
         <option value="$PROJECT_DIR$/plugins/group.js" />
         <option value="$PROJECT_DIR$/conf.json.js" />
         <option value="$PROJECT_DIR$/conf.json" />
         <option value="$PROJECT_DIR$/samplesource/compound.js" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
       </list>
     </option>
   </component>
@@ -204,6 +206,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,13 +577,6 @@
         <state line="154" column="76" selection-start="4762" selection-end="4762" vertical-scroll-proportion="1.5892857" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="370" column="9" selection-start="10492" selection-end="10492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/group.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
@@ -554,7 +603,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samplesource/compound.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="19" selection-start="6079" selection-end="6079" vertical-scroll-proportion="0.57766145">
+        <state line="226" column="19" selection-start="6079" selection-end="6079" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="13" selection-start="11959" selection-end="11959" vertical-scroll-proportion="0.4107143">
           <folding />
         </state>
       </provider>
