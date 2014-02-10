@@ -82,6 +82,7 @@ util.inherits(Compound, events.EventEmitter);
  *  - assets
  *
  * @memberof Compound
+ * @group someGroup
  *
  * @param {Object} app - express server, may contain optional `root` member.
  * @return {Compound} compound - compound app descriptor.
@@ -186,6 +187,7 @@ function configureApp(compound) {
  * @param {Compound} compound - express app.
  * @param {String} module - path to file.
  * @return {Boolean} success - returns true when required file exists.
+ * @group someGroup
  */
 function requireIfExists(compound, module) {
     if (fs.existsSync(module)) {
@@ -222,6 +224,7 @@ function requireFun(filename) {
  * Run initializers in sandbox mode
  *
  * @param {Compound} compound - compound descriptor.
+ * @group someGroup
  */
 function runInitializers(compound) {
     var queue,
