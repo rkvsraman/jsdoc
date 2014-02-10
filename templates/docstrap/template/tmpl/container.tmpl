@@ -1,7 +1,7 @@
 <?js
     var self = this;
 
-
+      var   groups = [];
 
     docs.forEach(function(doc, i) {
 
@@ -39,7 +39,13 @@
         <?js= self.partial('method.tmpl', doc.module) ?>
     <?js } ?>
 
-    <?js if (doc.kind === 'class') { ?>
+    <?js if (doc.kind === 'class') {
+
+      if(doc.group){  ?>
+       <h3 class="subsection-title" id="<?js= doc.group ?>"> Group: <?js= doc.group ?></h3>
+
+     <?js }
+     ?>
         <?js= self.partial('method.tmpl', doc) ?>
     <?js } else { ?>
         <?js if (doc.description) { ?>
@@ -115,7 +121,7 @@
                         return m.group;
                         });
 
-         groups = [];
+         //groups = [];
           members.forEach(function(m) {
              if(m.group)
              {
@@ -146,7 +152,7 @@
                 return m.group;
                 });
 
-             groups = [];
+         //    groups = [];
              methods.forEach(function(m) {
                 if(m.group)
                 {
