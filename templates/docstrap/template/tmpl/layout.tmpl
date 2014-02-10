@@ -20,25 +20,56 @@
 
 <body>
 <div class="container-fluid">
+
 	<div class="navbar navbar-fixed-top <?js= this.navOptions.inverseNav ? 'navbar-inverse' : '' ?>">
 		<div class="navbar-inner">
 			<a class="brand" href="<?js= this.nav.index.link ?>"><?js= this.nav.index.title ?></a>
+			<input type="text" class="typeahead" id="typeahead" placeholder="Search"></input>
 			<ul class="nav">
-				<?js this.nav.topLevelNav.forEach(function(entry){ ?>
+				<?js this.nav.topLevelNav.forEach(function(entry){
+
+				// console.log("Entry %j",entry);?>
 				<li class="dropdown">
 					<a href="<?js= entry.link ?>" class="dropdown-toggle" data-toggle="dropdown"><?js= entry.title ?><b
 						class="caret"></b></a>
 
 					<ul class="dropdown-menu <?js= that.navOptions.navType ==='inline' ? 'inline' : '' ?>">
-						<?js entry.members.forEach(function(member){ ?>
+						<?js
+
+						entry.members.forEach(function(member){
+
+						//console.log("Member %j",member);?>
 						<li>
 							<?js= member ?>
 						</li>
 						<?js	}); ?>
-
 					</ul>
 				</li>
 				<?js }); ?>
+
+
+
+                <li class="dropdown">
+               <a  class="dropdown-toggle" data-toggle="dropdown">Groups<b
+                						class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <?js
+                  var temp =[];
+                  this.groups.forEach(function(member){
+                  if(!_.contains(temp,member)){
+                   temp.push(member);
+                  ?>
+
+                  						<li>
+                                        	<?js= member ?>
+                                        </li>
+                       <?js	}}); ?>
+                  </ul>
+                </li>
+
+
+
+
 			</ul>
 		</div>
 	</div>
@@ -93,7 +124,28 @@
 	<script src="scripts/bootstrap-dropdown.js"></script>
 	<script src="scripts/typeahead.js"></script>
 	<script src="scripts/toc.js"></script>
+         <script>
 
+         	var countries  = new Bloodhound({
+
+          datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.name); },
+           queryTokenizer: Bloodhound.tokenizers.whitespace,
+                               local:[<?js
+                               this.typeaheadData.forEach(function(entry){ ?>
+                               {name:"<?js= entry.name?>",url:"<?js= entry.url?>"},
+                                <?js }); ?>]
+                             });
+
+                             countries.initialize();
+         	$('.typeahead').typeahead(null,
+              {
+                displayKey:'name',
+                source: countries.ttAdapter()
+              }).on('typeahead:selected', function($e, datum){
+                       console.log("%j",datum);
+                       window.open(datum.url);
+                });
+         	</script>
 
 	<script>  Sunlight.highlightAll({lineNumbers:<?js= this.navOptions.linenums ?>,  showMenu: true, enableDoclinks :true}); </script>
 
@@ -142,6 +194,7 @@
 		} );
 	</script>
 	<?js } ?>
+
 
 </body>
 </html>

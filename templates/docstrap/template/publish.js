@@ -36,6 +36,7 @@ var navOptions = {
 };
 
 var navigationMaster = {
+
     index: {
         title: navOptions.systemName,
         link: indexUrl,
@@ -82,12 +83,10 @@ var navigationMaster = {
         title: "Externals",
         link: helper.getUniqueFilename("externals.list"),
         members: []
-    },
-    groups: {
-        title: "Groups",
-        link: globalUrl,
-        members: []
     }
+
+
+
 };
 
 function find(spec) {
@@ -405,16 +404,20 @@ exports.publish = function (taffyData, opts, tutorials) {
 
     var sourceFiles = {};
     var sourceFilePaths = [];
+    var groups = [];
+    var typeaheadData = [];
 
     data().each(function (doclet) {
 
 
-
-
         doclet.attribs = '';
         if (doclet.group) {
+            var link = createGroupLink(doclet);
 
-            addDocletToGroup(doclet);
+            if(!_.contains(groups,link)){
+                groups.push(link);
+            }
+
         }
 
         if (doclet.examples) {
@@ -488,8 +491,12 @@ exports.publish = function (taffyData, opts, tutorials) {
 
     data().each(function (doclet) {
         var url = helper.longnameToUrl[doclet.longname];
-        console.log(url);
 
+        var typeAheadEntry = {};
+        var vals = url.split('#');
+        typeAheadEntry.name = vals[vals.length -1];
+        typeAheadEntry.url = url;
+        typeaheadData.push(typeAheadEntry);
         if (url.indexOf('#') > -1) {
             doclet.id = helper.longnameToUrl[doclet.longname].split(/#/).pop();
 
@@ -508,7 +515,7 @@ exports.publish = function (taffyData, opts, tutorials) {
     // do this after the urls have all been generated
     data().each(function (doclet) {
         doclet.ancestors = getAncestorLinks(doclet);
-         console.log("%j",doclet.ancestors);
+
 
         if (doclet.kind === 'member') {
             addSignatureTypes(doclet);
@@ -537,6 +544,8 @@ exports.publish = function (taffyData, opts, tutorials) {
     buildNav(members);
     view.nav = navigationMaster;
     view.navOptions = navOptions;
+    view.typeaheadData = typeaheadData;//[ {name: "Andorra"},{name:"United Arab Emirates"},{name:"Afghanistan"}] ;
+    view.groups = groups;
     attachModuleSymbols(find({ kind: ['class', 'function'], longname: {left: 'module:'} }),
         members.modules);
 
@@ -664,16 +673,15 @@ exports.publish = function (taffyData, opts, tutorials) {
         });
     }
 
-    function addDocletToGroup(doclet) {
+    function createGroupLink(doclet) {
 
 
         var url = helper.createLink(doclet);
         var url_prefix = url.split('#')[0];
         var group_url = url_prefix + '#' + doclet.group;
-        var link = '<a href="' + group_url + '">' + doclet.group + '</>';
-        if (!_.contains(navigationMaster.groups.members, link)) {
-            navigationMaster.groups.members.push(link);
-        }
+        var link = '<a href="' + group_url + '">' + doclet.group + '</a>';
+        return link;
+
 
     }
 

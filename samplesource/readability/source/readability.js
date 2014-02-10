@@ -40,6 +40,7 @@
      * parser.parse("http://somedomain.com/somearticle/"'", function (data) {
      *     console.log(data.excerpt);
      * });
+     * @group no_read
      */
     Parser = function (options) {
         options = options || {};
@@ -174,11 +175,14 @@
      * @private
      * @memberOf Parser
      *
+     *
+     *
      * @param {string} key - The parser API key to be used to pass
      * on to Readability servers.
      * @param {string} articleUrl - Url of the article that is required
      * to be parsed.
      * @returns {string} Readability API Url ready to be requested.
+     *
      */
     Parser.getAPIUrl = function (key, articleUrl) {
         return "https://" + READABILITY_URL + READABILITY_PARSER_PATH + "?" + querystring.stringify({
