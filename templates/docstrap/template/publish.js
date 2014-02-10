@@ -409,6 +409,8 @@ exports.publish = function (taffyData, opts, tutorials) {
     data().each(function (doclet) {
 
 
+
+
         doclet.attribs = '';
         if (doclet.group) {
 
@@ -486,6 +488,7 @@ exports.publish = function (taffyData, opts, tutorials) {
 
     data().each(function (doclet) {
         var url = helper.longnameToUrl[doclet.longname];
+        console.log(url);
 
         if (url.indexOf('#') > -1) {
             doclet.id = helper.longnameToUrl[doclet.longname].split(/#/).pop();
@@ -505,6 +508,7 @@ exports.publish = function (taffyData, opts, tutorials) {
     // do this after the urls have all been generated
     data().each(function (doclet) {
         doclet.ancestors = getAncestorLinks(doclet);
+         console.log("%j",doclet.ancestors);
 
         if (doclet.kind === 'member') {
             addSignatureTypes(doclet);
