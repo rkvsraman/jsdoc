@@ -4,18 +4,19 @@
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/publish.js" afterPath="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391999283083" ignored="false" />
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
-    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392022957881" ignored="false" />
+    <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392024317513" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
     <file path="/container.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877634703" ignored="false" />
     <file path="/method.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767969300" ignored="false" />
     <file path="/members.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767979394" ignored="false" />
     <file path="/templateHelper.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877270742" ignored="false" />
-    <file path="/layout.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392023915819" ignored="false" />
+    <file path="/layout.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392024240351" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,22 +77,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="546" column="39" selection-start="15303" selection-end="15303" vertical-scroll-proportion="0.0">
+            <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.56785715">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.tmpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.tmpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="65" selection-start="399" selection-end="399" vertical-scroll-proportion="0.32958803">
+            <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-11.846154">
               <folding />
             </state>
           </provider>
@@ -145,9 +146,9 @@
         <option value="$PROJECT_DIR$/samplesource/compound.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/static/scripts/typeahead.js" />
         <option value="$PROJECT_DIR$/samplesource/readability/source/readability.js" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/static/styles/typeahead.css" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
       </list>
     </option>
   </component>
@@ -713,20 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="546" column="39" selection-start="15303" selection-end="15303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/static/styles/typeahead.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="169" column="1" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.0">
@@ -739,7 +726,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="399" selection-end="399" vertical-scroll-proportion="0.32958803">
+        <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-11.846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.56785715">
           <folding />
         </state>
       </provider>

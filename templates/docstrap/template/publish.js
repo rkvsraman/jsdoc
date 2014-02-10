@@ -414,7 +414,7 @@ exports.publish = function (taffyData, opts, tutorials) {
         if (doclet.group) {
             var link = createGroupLink(doclet);
 
-            if(!_.contains(groups,link)){
+            if (!_.contains(groups, link)) {
                 groups.push(link);
             }
 
@@ -494,9 +494,11 @@ exports.publish = function (taffyData, opts, tutorials) {
 
         var typeAheadEntry = {};
         var vals = url.split('#');
-        typeAheadEntry.name = vals[vals.length -1];
-        typeAheadEntry.url = url;
-        typeaheadData.push(typeAheadEntry);
+        if (vals.length === 2) {
+            typeAheadEntry.name = vals[1];
+            typeAheadEntry.url = url;
+            typeaheadData.push(typeAheadEntry);
+        }
         if (url.indexOf('#') > -1) {
             doclet.id = helper.longnameToUrl[doclet.longname].split(/#/).pop();
 
