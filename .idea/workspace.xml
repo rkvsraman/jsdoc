@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samplesource/compound.js" afterPath="$PROJECT_DIR$/samplesource/compound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcom.sh" afterPath="$PROJECT_DIR$/jcom.sh" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
