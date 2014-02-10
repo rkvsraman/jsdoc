@@ -303,6 +303,9 @@ function buildNav(members) {
 
         members.events.forEach(function (e) {
             if (!hasOwnProp.call(seen, e.longname)) {
+                /*   console.log (" Long name "+ e.longname );
+                 console.log (" Name "+ e.name );
+                 console.log (" Link "+linkto(e.longname, e.name));*/
 
                 nav.event.members.push(linkto(e.longname, e.name));
             }
@@ -328,9 +331,7 @@ function buildNav(members) {
         members.mixins.forEach(function (m) {
             if (!hasOwnProp.call(seen, m.longname)) {
 
-                console.log (" Longna name "+ m.longname );
-                console.log (" Name "+ m.name );
-                console.log (" Link "+linkto(m.longname, m.name));
+
                 nav.mixin.members.push(linkto(m.longname, m.name));
             }
             seen[m.longname] = true;
@@ -351,24 +352,12 @@ function buildNav(members) {
         members.globals.forEach(function (g) {
             if (g.kind !== 'typedef' && !hasOwnProp.call(seen, g.longname)) {
 
-                /*console.log (" Longna name "+ g.longname );
-                console.log (" Name "+ g.name );
-                console.log (" Link "+linkto(g.longname, g.name));*/
+
                 nav.global.members.push(linkto(g.longname, g.name));
             }
             seen[g.longname] = true;
         });
     }
-
-   /* if (members.groups.length) {
-        members.groups.forEach(function (g) {
-            if (!hasOwnProp.call(seen, g.group)) {
-                nav.groups.members.push(linkto(g.group, g.name));
-            }
-
-            seen[g.group] = true;
-        });
-    }  */
 
     var topLevelNav = [];
     _.each(nav, function (entry, name) {
@@ -421,9 +410,9 @@ exports.publish = function (taffyData, opts, tutorials) {
 
 
         doclet.attribs = '';
-        if(doclet.group){
-           // console.log("%j",doclet);
-            console.log("URL "+  helper.createLink(doclet));
+        if (doclet.group) {
+
+            addDocletToGroup(doclet);
         }
 
         if (doclet.examples) {
@@ -669,6 +658,19 @@ exports.publish = function (taffyData, opts, tutorials) {
             generateTutorial('tutorial' + child.title, child, helper.tutorialToUrl(child.name));
             saveChildren(child);
         });
+    }
+
+    function addDocletToGroup(doclet) {
+
+
+        var url = helper.createLink(doclet);
+        var url_prefix = url.split('#')[0];
+        var group_url = url_prefix + '#' + doclet.group;
+        var link = '<a href="' + group_url + '">' + doclet.group + '</>';
+        if (!_.contains(navigationMaster.groups.members, link)) {
+            navigationMaster.groups.members.push(link);
+        }
+
     }
 
     saveChildren(tutorials);

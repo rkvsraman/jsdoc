@@ -67,6 +67,7 @@
          * });
          * // Set a new parser key.
          * parser.key("myapikeyfromreadability.com");
+         * @group for_read
          */
         this.key = function (newKey) {
 
@@ -203,6 +204,7 @@
      * parser.parse("http://somedomain.com/somearticle/", function (data) {
      *     console.log(data.excerpt);
      * });
+     * @group for_read
      */
     Parser.prototype.parse = function (url, success) {
         var proxy = this;
