@@ -40,7 +40,6 @@
      * parser.parse("http://somedomain.com/somearticle/"'", function (data) {
      *     console.log(data.excerpt);
      * });
-     * @group no_read
      */
     Parser = function (options) {
         options = options || {};

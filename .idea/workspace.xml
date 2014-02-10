@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/publish.js" afterPath="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,22 +75,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.56785715">
+            <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.tmpl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.tmpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-11.846154">
+            <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-3.0074906">
               <folding />
             </state>
           </provider>
@@ -714,9 +712,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/static/styles/typeahead.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="169" column="1" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -726,21 +738,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-11.846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.56785715">
+        <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-3.0074906">
           <folding />
         </state>
       </provider>
