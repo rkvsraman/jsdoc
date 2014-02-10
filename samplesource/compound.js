@@ -82,7 +82,6 @@ util.inherits(Compound, events.EventEmitter);
  *  - assets
  *
  * @memberof Compound
- * @group someName
  *
  * @param {Object} app - express server, may contain optional `root` member.
  * @return {Compound} compound - compound app descriptor.
@@ -164,7 +163,6 @@ Compound.prototype.model = function (model, caseSensitive) {
 /**
  * Run app configutators in `config/environment` and `config/environments/env`.
  * @param {Compound} compound - compound app descriptor.
- * @group someName
  */
 function configureApp(compound) {
     var app = compound.app;
@@ -223,7 +221,6 @@ function requireFun(filename) {
 /**
  * Run initializers in sandbox mode
  *
- * @group someName
  * @param {Compound} compound - compound descriptor.
  */
 function runInitializers(compound) {

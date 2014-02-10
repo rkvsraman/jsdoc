@@ -360,7 +360,7 @@ function buildNav(members) {
         });
     }
 
-    if (members.groups.length) {
+   /* if (members.groups.length) {
         members.groups.forEach(function (g) {
             if (!hasOwnProp.call(seen, g.group)) {
                 nav.groups.members.push(linkto(g.group, g.name));
@@ -368,7 +368,7 @@ function buildNav(members) {
 
             seen[g.group] = true;
         });
-    }
+    }  */
 
     var topLevelNav = [];
     _.each(nav, function (entry, name) {
