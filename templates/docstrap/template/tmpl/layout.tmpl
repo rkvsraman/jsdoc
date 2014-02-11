@@ -143,8 +143,8 @@
                 displayKey:'name',
                 source: t_data.ttAdapter()
               }).on('typeahead:selected', function($e, datum){
-                       console.log("%j",datum);
-                       window.open(datum.url);
+                      // console.log("%j",datum);
+                       window.open(datum.url,'_self');
                 });
          	</script>
 
