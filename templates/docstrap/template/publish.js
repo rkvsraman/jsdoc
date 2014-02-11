@@ -682,6 +682,7 @@ exports.publish = function (taffyData, opts, tutorials) {
         var url_prefix = url.split('#')[0];
         var group_url = url_prefix + '#' + doclet.group;
         var link = '<a href="' + group_url + '">' + doclet.group + '</a>';
+        helper.registerLink(doclet.longname.split('#')[0]+'#'+doclet.group, group_url );
         return link;
 
 

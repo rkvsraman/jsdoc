@@ -31,6 +31,7 @@
      * @constructor
      * @param {object=} [options] - Configuration for a new instance of the readability.
      * The possible options that you can pass are part of {@link Parser.defaultOptions}.
+     * Alternatively you can also connect groups {@link Parser#g_methods}
      *
      * @example
      * // Use Readability to procure the excerpt of an article.
