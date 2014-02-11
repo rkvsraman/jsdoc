@@ -30,7 +30,7 @@
      * @global
      * @constructor
      * @param {object=} [options] - Configuration for a new instance of the readability.
-     * The possible options that you can pass are part of {@link Parser.defaultOptions}.
+     * The possible options that you can pass are part of {@link Parser#my_event}.
      *
      * @example
      * // Use Readability to procure the excerpt of an article.

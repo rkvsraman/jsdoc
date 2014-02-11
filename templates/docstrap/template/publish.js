@@ -410,11 +410,20 @@ exports.publish = function (taffyData, opts, tutorials) {
 
     var sourceFiles = {};
     var sourceFilePaths = [];
+    var groups = [];
 
     data().each(function (doclet) {
 
 
         doclet.attribs = '';
+        if (doclet.group) {
+            var link = createGroupLink(doclet);
+
+            if (!_.contains(groups, link)) {
+                groups.push(link);
+            }
+
+        }
 
         if (doclet.examples) {
             doclet.examples = doclet.examples.map(function (example) {
@@ -659,6 +668,20 @@ exports.publish = function (taffyData, opts, tutorials) {
             generateTutorial('tutorial' + child.title, child, helper.tutorialToUrl(child.name));
             saveChildren(child);
         });
+    }
+
+    function createGroupLink(doclet) {
+
+
+
+        var url = helper.createLink(doclet);
+        var url_prefix = url.split('#')[0];
+        var group_url = url_prefix + '#' + doclet.group;
+        var link = '<a href="' + group_url + '">' + doclet.group + '</a>';
+        helper.registerLink(doclet.longname.split('#')[0]+'#'+doclet.group, group_url );
+        return link;
+
+
     }
 
     saveChildren(tutorials);
