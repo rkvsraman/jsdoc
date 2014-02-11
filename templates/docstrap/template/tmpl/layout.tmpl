@@ -127,7 +127,7 @@
 	<script src="scripts/toc.js"></script>
          <script>
 
-         	var countries  = new Bloodhound({
+         	var t_data  = new Bloodhound({
 
           datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.name); },
            queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -137,11 +137,11 @@
                                 <?js }); ?>]
                              });
 
-                             countries.initialize();
+                             t_data.initialize();
          	$('.typeahead').typeahead(null,
               {
                 displayKey:'name',
-                source: countries.ttAdapter()
+                source: t_data.ttAdapter()
               }).on('typeahead:selected', function($e, datum){
                        console.log("%j",datum);
                        window.open(datum.url);

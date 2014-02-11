@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samplesource/readability/source/readability.js" afterPath="$PROJECT_DIR$/samplesource/readability/source/readability.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/group.js" afterPath="$PROJECT_DIR$/plugins/group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcom.sh" afterPath="$PROJECT_DIR$/jcom.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391999283083" ignored="false" />
+    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392085103329" ignored="false" />
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
     <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392024317513" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
@@ -18,7 +18,8 @@
     <file path="/method.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767969300" ignored="false" />
     <file path="/members.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391767979394" ignored="false" />
     <file path="/templateHelper.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391877270742" ignored="false" />
-    <file path="/layout.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392024240351" ignored="false" />
+    <file path="/layout.tmpl" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392035502941" ignored="false" />
+    <file path="/group.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392088982658" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.0">
+            <state line="416" column="52" selection-start="11562" selection-end="11562" vertical-scroll-proportion="5.107143">
               <folding />
             </state>
           </provider>
@@ -90,22 +91,8 @@
       </file>
       <file leaf-file-name="layout.tmpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="59.23077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="container.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="31" selection-start="1240" selection-end="1240" vertical-scroll-proportion="122.04">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -118,10 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readability.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="readability.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="23" selection-start="8382" selection-end="8382" vertical-scroll-proportion="7.117757">
+            <state line="32" column="86" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/group.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="8" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,16 +146,16 @@
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/members.tmpl" />
         <option value="$PROJECT_DIR$/samplesource/helpers.js" />
         <option value="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" />
-        <option value="$PROJECT_DIR$/plugins/group.js" />
         <option value="$PROJECT_DIR$/conf.json.js" />
         <option value="$PROJECT_DIR$/conf.json" />
         <option value="$PROJECT_DIR$/samplesource/compound.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/static/scripts/typeahead.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/static/styles/typeahead.css" />
-        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
-        <option value="$PROJECT_DIR$/samplesource/readability/source/readability.js" />
         <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl" />
+        <option value="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
+        <option value="$PROJECT_DIR$/samplesource/readability/source/readability.js" />
+        <option value="$PROJECT_DIR$/plugins/group.js" />
       </list>
     </option>
   </component>
@@ -197,7 +193,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,6 +389,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="samplesource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readability" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,6 +418,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -616,13 +634,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
@@ -647,9 +658,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="7" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="52" column="7" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/members.tmpl">
@@ -657,21 +666,12 @@
         <state line="12" column="52" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.26876092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf.json.EXAMPLE">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="0" selection-end="342" vertical-scroll-proportion="0.64351004">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="0" selection-end="342" vertical-scroll-proportion="0.64351004" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf.json">
@@ -685,7 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1657" column="18" selection-start="66292" selection-end="66292" vertical-scroll-proportion="65.09643">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,33 +697,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="9" selection-start="14118" selection-end="14118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="31" selection-start="1240" selection-end="1240" vertical-scroll-proportion="122.04" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/fires.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="40" selection-start="1728" selection-end="1728" vertical-scroll-proportion="59.23077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="31" selection-start="1240" selection-end="1240" vertical-scroll-proportion="122.04">
+      <provider editor-type-id="text-editor">
+        <state line="143" column="30" selection-start="4560" selection-end="4560" vertical-scroll-proportion="-14.384615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="23" selection-start="8382" selection-end="8382" vertical-scroll-proportion="7.117757">
+        <state line="32" column="86" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="416" column="52" selection-start="11562" selection-end="11562" vertical-scroll-proportion="5.107143">
           <folding />
         </state>
       </provider>
