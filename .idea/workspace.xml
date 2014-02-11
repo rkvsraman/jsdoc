@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcom.sh" afterPath="$PROJECT_DIR$/jcom.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/publish.js" afterPath="$PROJECT_DIR$/templates/docstrap/template/publish.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samplesource/readability.js" afterPath="$PROJECT_DIR$/samplesource/readability.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" afterPath="$PROJECT_DIR$/lib/jsdoc/util/templateHelper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="" />
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392098949050" ignored="false" />
