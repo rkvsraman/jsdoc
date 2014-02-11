@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b517127e-f6f6-4a37-95a5-382f61f6252e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/onlyCompound.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/group.js" afterPath="$PROJECT_DIR$/plugins/group.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcom.sh" afterPath="$PROJECT_DIR$/jcom.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" afterPath="$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdoc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392085103329" ignored="false" />
+    <file path="/Dummy.txt" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392098380451" ignored="false" />
     <file path="/definitions.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391759965433" ignored="false" />
     <file path="/publish.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1392024317513" ignored="false" />
     <file path="/compound.js" changelist="b517127e-f6f6-4a37-95a5-382f61f6252e" time="1391760333059" ignored="false" />
@@ -80,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="publish.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="416" column="52" selection-start="11562" selection-end="11562" vertical-scroll-proportion="5.107143">
+            <state line="262" column="9" selection-start="7554" selection-end="7554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,8 +88,22 @@
       </file>
       <file leaf-file-name="layout.tmpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="26" selection-start="1664" selection-end="2308" vertical-scroll-proportion="-16.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.tmpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="37" selection-start="3860" selection-end="3889" vertical-scroll-proportion="2.375">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -417,8 +428,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,13 +437,13 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -447,19 +458,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -488,6 +486,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -683,11 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/static/scripts/typeahead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1657" column="18" selection-start="66292" selection-end="66292" vertical-scroll-proportion="65.09643">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="1657" column="18" selection-start="66292" selection-end="66292" vertical-scroll-proportion="65.09643" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/static/styles/typeahead.css">
@@ -697,24 +704,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="31" selection-start="1240" selection-end="1240" vertical-scroll-proportion="122.04" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/fires.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="143" column="30" selection-start="4560" selection-end="4560" vertical-scroll-proportion="-14.384615">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samplesource/readability/source/readability.js">
@@ -733,7 +725,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/docstrap/template/publish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="416" column="52" selection-start="11562" selection-end="11562" vertical-scroll-proportion="5.107143">
+        <state line="262" column="9" selection-start="7554" selection-end="7554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/layout.tmpl">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="26" selection-start="1664" selection-end="2308" vertical-scroll-proportion="-16.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docstrap/template/tmpl/container.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="37" selection-start="3860" selection-end="3889" vertical-scroll-proportion="2.375">
           <folding />
         </state>
       </provider>
